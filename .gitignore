@@ -1,0 +1,11 @@
+node_modules
+vendor
+coverage
+.vitepress/cache
+.vitepress/dist
+_DS_Store
+.vscode
+.php-cs-fixer.cache
+.DS_Store
+.run
+.cache
