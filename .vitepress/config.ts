@@ -78,7 +78,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: 'https://lira-ds.ribeiroevandro.com.br',
+    hostname: 'https://lira.vegacheckout.com.br',
   },
   head: [
     [
@@ -90,12 +90,12 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'Lira Design System' }],
     ['meta', { property: 'og:title', content: 'Vega Checkout - Lira Design System' }],
     ['meta', { property: 'og:description', content: 'Uma forma simples para documentar a forma como componentes devem ser criados no frontend!' }],
-    ['meta', { property: 'og:url', content: 'https://lira-ds.ribeiroevandro.com.br' }],
+    ['meta', { property: 'og:url', content: 'https://lira.vegacheckout.com.br' }],
     [
       'meta',
       {
         property: 'og:image',
-        content: 'https://lira-ds.ribeiroevandro.com.br/og-image.png'
+        content: 'https://lira.vegacheckout.com.br/og-image.png'
       }
     ],
     ['meta', { property: 'og:image:width', content: '1280' }],
