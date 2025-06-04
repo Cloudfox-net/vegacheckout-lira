@@ -1,6 +1,10 @@
-# Lira Design System
+<p align="center"><a href="https://lira.vegacheckout.com.br" target="_blank"><img src="https://lira.vegacheckout.com.br/og-image.png" width="600"></a></p>
 
-Uma forma simples para documentar a forma como componentes devem ser criados no frontend!
+<h1 align="center">
+Lira Design System
+</h1>
+<h2 align="center">Uma forma simples para documentar a forma como componentes devem ser criados no frontend!</h2>
+
 
 ## Sobre o Projeto
 
@@ -18,17 +22,15 @@ Certifique-se de ter Node.js e npm (ou yarn/pnpm) instalados na sua máquina.
 
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_SEU_REPOSITÓRIO>
+   git clone git@github.com:Cloudfox-net/vegacheckout-lira.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd vitepress
+   cd vegacheckout-lira
    ```
 3. Instale as dependências:
    ```bash
    npm install
-   # ou yarn install
-   # ou pnpm install
    ```
 
 ### Executando Localmente
