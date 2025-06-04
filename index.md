@@ -12,6 +12,9 @@ hero:
   #   - theme: alt
   #     text: API Examples
   #     link: /api-examples
+  image:
+    src: /banner.png
+    alt: Vega Checkout
 
 features:
   - title: Fundações (Design Tokens)
