@@ -3,7 +3,7 @@
 <h1 align="center">
 Lira Design System
 </h1>
-<h2 align="center">Uma forma simples para documentar a forma como componentes devem ser criados no frontend!</h2>
+<h3 align="center">Uma forma simples para documentar a forma como componentes devem ser criados no frontend!</h3>
 
 
 ## Sobre o Projeto
