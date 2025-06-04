@@ -2,6 +2,8 @@
 layout: page
 title: Conheça o time
 description: The development of Vite is guided by an international team.
+
+sidebar: false
 ---
 
 <script setup>
