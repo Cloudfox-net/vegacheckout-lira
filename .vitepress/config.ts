@@ -50,14 +50,20 @@ export default defineConfig({
         items: [
           { text: 'Status dos componentes', link: '/components/status' },
           { 
-        text: 'Form',
-        base: '/components/form-',
-        items: [
-          { text: 'Checkbox', link: 'checkbox' },
-          { text: 'Color', link: 'color' },
-          { text: 'Currency', link: 'currency' },
+            text: 'Form',
+            base: '/components/form-',
+            items: [
+              { text: 'Checkbox', link: 'checkbox' },
+              { text: 'Color', link: 'color' },
+              { text: 'Currency', link: 'currency' },
+            ] 
+          }
         ] 
-      }
+      },
+      { 
+        text: 'Fundações',
+        items: [
+          { text: 'Cores', link: '/foundations/colors' }
         ] 
       },
     ],
