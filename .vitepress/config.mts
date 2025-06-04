@@ -7,17 +7,33 @@ export default defineConfig({
   head: [['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Components', link: '/components' }
     ],
-
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Components',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          {
+            text: 'Feedback',
+            items: [
+              {
+                text: 'Alert',
+                link: '/components/alert'
+              }
+            ]
+          },
+          {
+            text: 'Navegação',
+            items: [
+              {
+                text: 'Link',
+                link: '/components/link'
+              }
+            ]
+          }
         ]
       }
     ],
@@ -27,5 +43,5 @@ export default defineConfig({
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/vegacheckout' }
     ],
     logo: '/logo.png',
-  }
+  },
 })
