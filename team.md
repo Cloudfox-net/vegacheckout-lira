@@ -13,7 +13,7 @@ sidebar: false
   VPTeamMembers,
   VPTeamPageSection
 } from 'vitepress/theme'
-import { members } from './_data/team'
+import { teamMembers } from './_data/contributors'
 </script>
 
 <VPTeamPage>
@@ -23,5 +23,5 @@ import { members } from './_data/team'
       O desenvolvimento do Vega Checkout é liderado por uma equipe remota, alguns dos quais escolheram ser apresentados abaixo.
     </template>
   </VPTeamPageTitle>
-  <VPTeamMembers size="small" :members="members" />
+  <VPTeamMembers size="small" :members="teamMembers" />
 </VPTeamPage>
