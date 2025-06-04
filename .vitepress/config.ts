@@ -8,15 +8,58 @@ import { groupIconMdPlugin } from 'vitepress-plugin-group-icons'
 // const ogUrl = 'https://lira-ds.test'
 
 export default defineConfig({
-  title: 'Lira | Design System',
+  title: 'Lira Design System',
   description: 'Uma forma simples para documentar a forma como componentes devem ser criados no frontend!',
   themeConfig: {
     logo: '/logo.png',
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: 'Pesquisar',
+                buttonAriaLabel: 'Pesquisar',
+              },
+              modal: {
+                noResultsText: 'Nenhum resultado encontrado',
+                resetButtonTitle: 'Limpar pesquisa',
+                footer: {
+                  selectText: 'Selecionar',
+                  navigateText: 'Navegar',
+                },
+              },
+            },
+          },
+        },
+        
+      }
     },
     nav: [
-      { text: 'Equipe', link: '/team' }
+      { text: 'Equipe', link: '/team' },
+      { 
+        text: 'Componentes', 
+        link: '/components/status', 
+        activeMatch: '/components/' 
+      },
+    ],
+    sidebar: [
+      { 
+        text: 'Componentes',
+        items: [
+          { text: 'Status dos componentes', link: '/components/status' },
+          { 
+        text: 'Form',
+        base: '/components/form-',
+        items: [
+          { text: 'Checkbox', link: 'checkbox' },
+          { text: 'Color', link: 'color' },
+          { text: 'Currency', link: 'currency' },
+        ] 
+      }
+        ] 
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Cloudfox-net' },
