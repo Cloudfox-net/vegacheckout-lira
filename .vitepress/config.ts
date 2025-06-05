@@ -50,6 +50,13 @@ export default defineConfig({
         items: [
           { text: 'Status dos componentes', link: '/components/status' },
           { 
+            text: 'Geral',
+            base: '/components/',
+            items: [
+              { text: 'Button', link: 'button' },
+            ] 
+          },
+          { 
             text: 'Form',
             base: '/components/form-',
             items: [

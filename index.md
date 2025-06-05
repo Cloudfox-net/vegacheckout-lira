@@ -25,3 +25,5 @@ features:
     details: São combinações de componentes que podem ser reutilizados para resolver os problemas mais comuns.
     icon: <span class="lucide-award"></span>
 ---
+
+<Contributors />
